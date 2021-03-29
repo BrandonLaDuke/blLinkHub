@@ -64,6 +64,11 @@ header > h1 {
   min-width: 300px;
   max-width: 500px;
 }
+@media (max-width:600px) {
+  .social > .card {
+    width: 100%;
+  }
+}
 .social > .card > h3 {
   font-size: 1.5rem;
   text-align: center;
